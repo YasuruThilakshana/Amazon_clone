@@ -193,7 +193,7 @@ margin-top: 10px;
 
 .product-slide  .product img{
     max-width: 200px;
-    max-height: 200;
+    max-height: 200px;
 }
 
 .product-slide  .product::-webkit-scrollbar{
@@ -258,4 +258,13 @@ margin-top: 10px;
     color: #525252;
     font-size: 15px;
     font-weight: 400;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background: #131921;
+    padding: 20px 60px;
 }
