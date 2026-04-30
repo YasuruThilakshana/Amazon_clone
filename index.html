@@ -9,10 +9,33 @@
 </head>
 
 <body>
-    <nav>
-        <a href="/">
-            <img src="./assets/amazon_logo.png" width="100" alt="">
+    <!-- Hamburger Menu Button -->
+    <button class="hamburger-menu" id="hamburgerBtn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
 
+    <!-- Mobile Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <button class="close-sidebar" id="closeSidebarBtn">&times;</button>
+        </div>
+        <div class="sidebar-content">
+            <a href="/">Account</a>
+            <a href="/">Sign in</a>
+            <hr>
+            <a href="/">Today's Deals</a>
+            <a href="/">Customer Service</a>
+            <a href="/">Registry</a>
+            <a href="/">Gift Cards</a>
+            <a href="/">Sell</a>
+        </div>
+    </div>
+
+    <nav>
+        <a href="/" class="nav-logo">
+            <img src="./assets/amazon_logo.png" width="100" alt="">
         </a>
         <div class="nav-country">
             <img src="./assets/location_icon.png" height="20" alt="">
@@ -54,7 +77,7 @@
     </nav>
 
     <div class="nav-bottom">
-        <div>
+        <div class="nav-bottom-menu">
             <img src="./assets/menu_icon.png" width="25px" alt="">
             <p>ALL</p>
         </div>
